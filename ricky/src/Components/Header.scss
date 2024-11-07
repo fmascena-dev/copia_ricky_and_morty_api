@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    padding: 0 1.5rem;
+
+    nav {
+        width: 20vw;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    li a {
+        color: rgb(51, 51, 51);
+        text-decoration: none;
+
+        &:hover {
+            color: rgb(255, 152, 0);
+            text-decoration: underline;
+        }
+    }
+
+    .support_btn {
+        border: 1px solid rgb(255, 152, 0);
+        padding: 0.4rem;
+        border-radius: 0.6rem;
+        transition: 0.3s ease-in-out;
+        font-size: 1rem;
+
+        &:hover {
+            background-color: rgb(255, 152, 0);
+            color: #FFF;
+            text-decoration: none;
+        }
+    }
+}

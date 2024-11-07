@@ -1,0 +1,100 @@
+footer {
+  background-color: rgb(32, 35, 41);
+  color: rgb(158, 158, 158);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+
+  li a {
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+      color: rgb(255, 152, 0);
+    }
+  }
+
+  .redes {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-top: 0.5rem;
+
+    p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+
+      .status {
+        color: rgb(158, 158, 158);
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+            color: rgb(255, 152, 0);
+        }
+      }
+    }
+
+    .icon {
+      color: green;
+    }
+
+    .networking a{
+        margin-right: 2rem;
+        transition: fill 0.3s ease-in-out;
+
+        &:hover {
+            fill:rgb(255, 152, 0);
+        }
+    }
+
+    .redes_sociais {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        
+        a {
+            color: rgb(158, 158, 158);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.5rem;
+            
+            &:hover {
+                text-decoration: underline;
+                color: rgb(255, 152, 0);
+            }
+        }
+    }
+
+    .autoria {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem;
+
+        a {
+            color: #FFF;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 1px solid rgb(255, 152, 0);
+
+            &:hover {
+                color: rgb(255, 152, 0);
+            }
+        }
+    }
+  }
+}
